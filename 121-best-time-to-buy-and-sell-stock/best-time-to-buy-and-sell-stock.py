@@ -11,7 +11,7 @@ class Solution:
             profit = prices[i] - minPrice #finding profit
 
             if profit > maxProfit:
-                maxProfit = profit
+                maxProfit = profit # finding maxProfit
 
         return maxProfit
 

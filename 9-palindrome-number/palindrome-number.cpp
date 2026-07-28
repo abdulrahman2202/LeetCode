@@ -9,6 +9,7 @@ public:
         }
 
         while(temp!=0){
+            // Reversing the x. x last value to reverse first value
             reverse = (reverse*10) + (temp % 10);
             temp = temp / 10;
         }

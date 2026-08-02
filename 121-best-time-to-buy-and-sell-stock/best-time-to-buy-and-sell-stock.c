@@ -4,7 +4,7 @@ int maxProfit(int* prices, int pricesSize) {
 
     for(int i = 0;i<pricesSize;i++){
         if(prices[i]<minPrice){
-            minPrice = prices[i];
+            minPrice = prices[i];// finding the minimum prices for buying the stocks
         }
 
         int profit = prices[i] - minPrice;// finding the profit which is higher

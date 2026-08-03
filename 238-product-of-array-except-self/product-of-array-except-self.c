@@ -13,7 +13,7 @@ int* productExceptSelf(int* nums, int numsSize, int* returnSize) {
     // suffix
     int suffix = 1;
     for(int i = numsSize - 1;i>=0;i--){
-        answer[i] = answer[i] * suffix;
+        answer[i] = answer[i] * suffix; // combining the prefix and suffix;
         suffix = suffix * nums[i];
     }
 

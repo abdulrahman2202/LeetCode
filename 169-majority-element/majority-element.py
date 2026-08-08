@@ -6,12 +6,12 @@ class Solution:
 
         for i in range(n):
             if votecount == 0:
-                candidate = nums[i]
+                candidate = nums[i] # assigning the value from array
 
-            if nums[i] == candidate:
-                votecount += 1
+            if nums[i] == candidate:  # checking same value comes again
+                votecount += 1  #  if yes the increment the count by 1
             else:
-                votecount -= 1
+                votecount -= 1  #  if No the decrement the count by 1
 
         return candidate
         

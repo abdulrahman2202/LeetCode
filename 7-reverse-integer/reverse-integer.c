@@ -5,6 +5,7 @@ int reverse(int x){
         x = x/10;
     }
 
+    // checking if the value is not more then or less then 32 bit if true then return 0
     if(reverse> INT_MAX || reverse< INT_MIN){
         return 0;
     }

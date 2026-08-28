@@ -15,6 +15,7 @@ public:
         temp = temp / 10;
        }
 
+        // checking reverse
        return (reverse == x);
     }
 };

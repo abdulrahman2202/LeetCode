@@ -4,7 +4,8 @@ public:
          
         if (numRows == 1 || numRows >= s.length()) {
             return s;
-        }
+        } 
+        
         vector<string> rows(numRows);
 
         int currentRow = 0;
